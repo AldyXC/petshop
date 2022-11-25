@@ -1,4 +1,4 @@
-<span class="absolute text-white text-4xl top-5 left-4 cursor-pointer" onclick="open()">
+<span class="absolute text-white text-4xl top-5 left-4 cursor-pointer" id="toggle-btn">
     <i class="bi bi-filter-left px-2 bg-gray-900 rounded-md"></i>
 </span>
 <div id="dashsidebar"
@@ -7,7 +7,7 @@
         <div class="p-2.5 mt-1 flex items-center">
             <i class="bi bi-app-indicator px-2 py-1 bg-blue-600 rounded-md"></i>
             <h1 class="font-bold text-gray-200 text-[15px] ml-3">Dashboard</h1>
-            <i class="bi bi-x ml-20 cursor-pointer lg:hidden" onclick="open()"></i>
+            <span id="toggle-btn2"><i class="bi bi-x ml-20 cursor-pointer lg:hidden"></i></span>
         </div>
         <hr class="my-2 text-gray-600">
     </div>
