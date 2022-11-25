@@ -15,9 +15,13 @@
     @yield('dashboard_content')
 
     <script>
-        function open() {
-            document.getElementById("dashsidebar").classList.toggle("left-[-300]");
-        }
+        document.getElementById('toggle-btn').addEventListener('click', () => {
+            document.getElementById('dashsidebar').classList.toggle('left-[-300px]');
+        });
+
+        document.getElementById('toggle-btn2').addEventListener('click', () => {
+            document.getElementById('dashsidebar').classList.toggle('left-[-300px]');
+        });
     </script>
 
 </body>
